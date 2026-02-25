@@ -91,6 +91,9 @@
         .status.under-review {
             background: #f39c12;
         }
+        .status.preprint {
+            background: #8e44ad;
+        }
         footer {
             margin-top: 50px;
             padding-top: 20px;
@@ -103,29 +106,18 @@
 </head>
 <body>
     <div class="container">
-        <h1>Bowen Yu (郁博文)</h1>
+        <h1>Bowen Yu (&#37057;&#21338;&#25991;)</h1>
         <div class="contact">
             PhD Student in Data Science<br>
             City University of Hong Kong<br><br>
-            <a href="mailto:bowyu2-c@my.cityu.edu.hk">📧 Email</a>
-            <a href="https://github.com/DrYu0815" target="_blank">💻 GitHub</a>
-            <a href="http://orcid.org/0009-0002-5127-8195" target="_blank">🔗 ORCID</a>
+            <a href="mailto:bowyu2-c@my.cityu.edu.hk">&#128231; Email</a>
+            <a href="https://github.com/DrYu0815">&#128187; GitHub</a>
+            <a href="http://orcid.org/0009-0002-5127-8195">&#128279; ORCID</a>
         </div>
 
         <h2>About Me</h2>
-        <p>
-            I am a first-year PhD student in Data Science at City University of Hong Kong, 
-            advised by <a href="https://zhaoxyai.github.io/" target="_blank">Prof. Xiangyu Zhao</a> 
-            in the <a href="https://aml-cityu.github.io/" target="_blank">Applied Machine Learning Lab</a>. 
-            My research focuses on scalable reasoning in large language models, with emphasis on 
-            chain-of-thought compression and efficient inference for mathematical reasoning.
-        </p>
-        <p>
-            Before starting my PhD, I completed an MSc in Venture Creation at CityU and a BEng in 
-            Electrical Engineering and Automation at Nantong University. My research combines 
-            tensor methods, reinforcement learning, and generative AI to build models that reason 
-            reliably under computational constraints.
-        </p>
+        <p>I am a first-year PhD student in Data Science at City University of Hong Kong, advised by <a href="https://zhaoxyai.github.io/">Prof. Xiangyu Zhao</a> in the <a href="https://aml-cityu.github.io/">Applied Machine Learning Lab</a>. My research focuses on scalable reasoning in large language models, with emphasis on chain-of-thought compression and efficient inference for mathematical reasoning.</p>
+        <p>Before starting my PhD, I completed an MSc in Venture Creation at CityU and a BEng in Electrical Engineering and Automation at Nantong University. My research combines tensor methods, reinforcement learning, and generative AI to build models that reason reliably under computational constraints.</p>
 
         <h2>Research Interests</h2>
         <ul>
@@ -136,60 +128,58 @@
         </ul>
 
         <h2>Publications</h2>
-        
+
+        <div class="publication">
+            <strong>Curriculum Learning for Efficient Chain-of-Thought Distillation via Structure-Aware Masking and GRPO</strong>
+            <span class="status under-review">Under Review</span><br>
+            <div class="authors"><strong>Bowen Yu</strong>, Maolin Wang, Sheng Zhang, Binhao Wang, Yi Wen, Jingtong Gao, Bowen Liu, Zimo Zhao, Wanyu Wang, Xiangyu Zhao</div>
+            <div class="venue">arXiv preprint, 2026</div>
+            <div><a href="https://arxiv.org/abs/2602.17686">[arXiv]</a></div>
+        </div>
+
         <div class="publication">
             <strong>Renormalization Group Guided Tensor Network Structure Search</strong>
-            <span class="status">Accepted</span>
-            <div class="authors">
-                Maolin Wang, <strong>Bowen Yu</strong> (co-first authors), et al.
-            </div>
-            <div class="venue">
-                AAAI Conference on Artificial Intelligence (AAAI 2026)
-            </div>
-            <p style="margin-top: 10px;">
-                Physics-inspired multi-scale framework that achieves state-of-the-art compression ratios 
-                while being <strong>4-600× faster</strong> than existing tensor network methods.
-            </p>
+            <span class="status">Accepted</span><br>
+            <div class="authors">Maolin Wang, <strong>Bowen Yu</strong> (co-first authors), Sheng Zhang, Linjie Mi, Wanyu Wang, Yiqi Wang, Pengyue Jia, Xuetao Wei, Zenglin Xu, Ruocheng Guo, Xiangyu Zhao</div>
+            <div class="venue">AAAI Conference on Artificial Intelligence (AAAI 2026)</div>
+            <div><a href="https://arxiv.org/abs/2512.24663">[arXiv]</a></div>
+        </div>
+
+        <div class="publication">
+            <strong>Function Calling in Large Language Models: Industrial Practices, Challenges, and Future Directions</strong>
+            <span class="status">Accepted</span><br>
+            <div class="authors">Maolin Wang, Yingyi Zhang, Cunyin Peng, Yicheng Chen, Wei Zhou, Jinjie Gu, Chenyi Zhuang, Ruocheng Guo, <strong>Bowen Yu</strong>, Wanyu Wang, Xiangyu Zhao</div>
+            <div class="venue">ACM</div>
+            <div><a href="https://openreview.net/pdf?id=LNxVGPedFW">[Paper]</a></div>
         </div>
 
         <div class="publication">
             <strong>Deep Tensor Factorization Revisited: Translation Invariance and Frequency-Limited Priors</strong>
-            <span class="status under-review">Under Review</span>
-            <div class="authors">
-                Maolin Wang, <strong>Bowen Yu</strong> (co-first authors), et al.
-            </div>
-            <div class="venue">
-                IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
-            </div>
-            <p style="margin-top: 10px;">
-                Unified framework integrating dimension-specific convolutions and frequency priors 
-                for robust tensor completion across multiple modalities including hyperspectral images, 
-                fMRI, video, audio, and seismic data.
-            </p>
+            <span class="status under-review">Under Review</span><br>
+            <div class="authors">Maolin Wang, <strong>Bowen Yu</strong> (co-first authors), et al.</div>
+            <div class="venue">Manuscript under review</div>
         </div>
 
         <h2>Education</h2>
         <ul>
-            <li><strong>PhD in Data Science</strong>, City University of Hong Kong (2025 - Present)
-                <br>Advisor: Prof. Xiangyu Zhao | Research: Scalable reasoning in LLMs, tensor methods
-            </li>
-            <li><strong>MSc in Venture Creation</strong>, City University of Hong Kong (2024 - 2025)
-                <br>Research Assistant at Applied Machine Learning Lab
-            </li>
-            <li><strong>BEng in Electrical Engineering</strong>, Nantong University (2020 - 2024)
-                <br>Excellent Graduation Thesis Award
-            </li>
+            <li><strong>PhD in Data Science</strong>, City University of Hong Kong (2025 - Present)<br>
+                Advisor: Prof. Xiangyu Zhao | Research: Scalable reasoning in LLMs, tensor methods</li>
+            <li><strong>MSc in Venture Creation</strong>, City University of Hong Kong (2024 - 2025)<br>
+                Research Assistant at Applied Machine Learning Lab</li>
+            <li><strong>BEng in Electrical Engineering</strong>, Nantong University (2020 - 2024)<br>
+                Excellent Graduation Thesis Award</li>
         </ul>
 
         <h2>News</h2>
         <ul>
+            <li><strong>Feb 2026:</strong> New preprint on CoT distillation via curriculum learning uploaded to arXiv!</li>
             <li><strong>Nov 2025:</strong> One paper accepted to AAAI 2026!</li>
             <li><strong>Sept 2025:</strong> Started PhD at City University of Hong Kong</li>
             <li><strong>Sept 2024:</strong> Joined AML Lab as Research Assistant</li>
         </ul>
 
         <footer>
-            Last updated: November 2025 | Built with ❤️ in Hong Kong
+            Last updated: February 2026 | Built with &#10084;&#65039; in Hong Kong
         </footer>
     </div>
 </body>
